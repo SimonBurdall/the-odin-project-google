@@ -2,11 +2,18 @@ body {
 	font-size: small;
 	font-family: arial, sans-serif;
 }
-a {
+.black {
 	text-decoration: none;
 	color: black; 
 }
-a:hover {
+.black:hover {
+	text-decoration: underline;
+}
+.white {
+	text-decoration: none;
+	color: black; 
+}
+.white:hover {
 	text-decoration: underline;
 }
 ul {
@@ -18,9 +25,38 @@ li {
 }
 #app {
 	height: 25px; width: 25px;
+	margin-top: -2px;	
+	border-radius: 3px;
+	margin-top: -7px;
 }
 nav {
 	margin-top: 15px;
+}
+#sign {
+	padding: 4px 9px 4px 9px;
+	background-color: #4484F1;
+  	border: 5px solid transparent;
+	margin-top: -2px;	
+	border-radius: 3px;
+	margin-top: -7px;
+	margin-right:30px;
+}
+p {
+	text-align: right;
+	margin-right: 140px;
+}
+.UK {
+	color: #4285f4;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	position: relative;
+	margin-top: -20px;
+}
+.kno {
+	color: #4285f4;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	position: relative;
+	margin-right: 220px;
+	margin-top: 10px;
 }
 .search-wrapper {
 	width: 490px;
@@ -64,6 +100,7 @@ input {
 }
 .r-links {
 	float: right;
+	margin-right: 60px;
 }
 .l-links a, .r-links a {
 	color: #666;
